@@ -21,15 +21,12 @@ export default function Player({ name, symbol, isActive }) {
     buttonName = "Save";
   }
   return (
-    console.log(isActive),
-    (
-      <li className={isActive ? "active" : undefined}>
-        <span className="player">
-          {playerNameField}
-          <span className="player-symbol">{symbol}</span>
-        </span>
-        <button onClick={editPlayerName}>{buttonName}</button>
-      </li>
-    )
+    <li className={isActive ? "active" : undefined}>
+      <span className="player">
+        {playerNameField}
+        <span className="player-symbol">{symbol}</span>
+      </span>
+      <button onClick={editPlayerName}>{buttonName}</button>
+    </li>
   );
 }
