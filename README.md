@@ -1,2 +1,2 @@
-# tic-tac-toe
- Tic Tac Toe React Practice Project
+# Tic Tac Toe React Practice Project
+https://rohitbavkar.github.io/tic-tac-toe/
